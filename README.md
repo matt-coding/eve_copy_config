@@ -10,13 +10,14 @@ Important Notes
 * This script currently only supports the Default (settings_Default) profile. If you have changed the profile using the [Profile Management Tool](https://support.eveonline.com/hc/en-us/articles/212689029-Profile-Management-Tool) this script won't currently work correctly.
 * Backing up your profiles may take a while to complete.
 * This script works correctly for me but there is always a chance something could go wrong and break [things](https://www.eveonline.com/article/about-the-boot.ini-issue).
-* If you find an issue please let me know either via github or matt-coding_github at protonmail dot com
+* If you find an issue please let me know either via github or via email at matt-coding_github at protonmail dot com
 
 Usage
 ------------
 
 1. Backup your "e_eve_sharedcache_tq_tranquility" folder, usually located: C:\Users\Alice\AppData\Local\CCP\EVE\e_eve_sharedcache_tq_tranquility where Alice is your username. This script will also create a backup but just in case it's worth backing up manually.
-1. Install Python. See [here](https://www.python.org/downloads/) for further information. 
+1. Install Python. See [here](https://www.python.org/downloads/) for further information.
+1. Download the python script called eve_copy_config.py from this page.
 1. Run ```python .\eve_copy_config.py --help``` in Windows Powershell and read the information provided.
 1. Run again with correct arguments.
 
